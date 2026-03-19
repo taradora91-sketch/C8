@@ -2,12 +2,7 @@
     "accounts": [
         {
             "name": "Account 1",
-            "mnemonic": "YOUR_24_WORD_MNEMONIC_PHRASE_HERE",
-            "proxy": null
-        },
-        {
-            "name": "Account 2",
-            "mnemonic": "YOUR_24_WORD_MNEMONIC_PHRASE_HERE",
+            "mnemonic": "language trouble strong version prefer stone waste alone cricket census opinion park tomato aim trust awkward flight jewel mushroom proof gorilla vapor act ecology",
             "proxy": null
         }
     ],
@@ -16,7 +11,7 @@
         "rounds": 1000,
         "delay_seconds": 5,
         "reserve_cc": 2,
-        "min_amount": 11,
+        "min_amount": 20,
         "pair_a": {
             "chain": "CC",
             "asset": "0x0",
