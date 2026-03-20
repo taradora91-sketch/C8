@@ -9,9 +9,9 @@
     "swap": {
         "enabled": true,
         "rounds": 1000,
-        "delay_seconds": 5,
+        "delay_seconds": 10,
         "reserve_cc": 2,
-        "min_amount": 26,
+        "min_amount": 50,
         "pair_a": {
             "chain": "CC",
             "asset": "0x0",
