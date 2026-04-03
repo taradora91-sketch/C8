@@ -42,7 +42,7 @@ const SETUP_WAIT_MAX = Infinity;   // max retries waiting for account setup (422
 const SETUP_WAIT_SEC = 10;   // seconds between setup retries
 
 // ── Circuit Breaker ─────────────────────────────────────────────────────
-const CIRCUIT_BREAKER_MS = 5 * 60 * 1000;  // 5 min: max time retryOnNetwork keeps retrying
+const CIRCUIT_BREAKER_MS = 60 * 60 * 1000;  // 5 min: max time retryOnNetwork keeps retrying
 const CIRCUIT_BREAKER_COOLDOWN = 30;       // seconds to wait before soft restart
 
 class CircuitBreakerError extends Error {
