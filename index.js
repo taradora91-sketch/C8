@@ -39,11 +39,11 @@ const BASE_HEADERS = {
 
 const TOKEN_MAX_AGE_MS = 45 * 60 * 1000;
 const SETUP_WAIT_MAX = Infinity;   // max retries waiting for account setup (422)
-const SETUP_WAIT_SEC = 300;   // seconds between setup retries
+const SETUP_WAIT_SEC = 10;   // seconds between setup retries
 
 // ── Circuit Breaker ─────────────────────────────────────────────────────
 const CIRCUIT_BREAKER_MS = 60 * 60 * 1000;  // 5 min: max time retryOnNetwork keeps retrying
-const CIRCUIT_BREAKER_COOLDOWN = 30;       // seconds to wait before soft restart
+const CIRCUIT_BREAKER_COOLDOWN = 1800;       // seconds to wait before soft restart
 
 class CircuitBreakerError extends Error {
     constructor(originalError, attempts, elapsedMs) {
