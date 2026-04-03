@@ -9,7 +9,7 @@
     "swap": {
         "enabled": true,
         "rounds": 1000,
-        "delay_seconds": 10,
+        "delay_seconds": 600,
         "reserve_cc": 2,
         "min_amount": 26,
         "pair_a": {
